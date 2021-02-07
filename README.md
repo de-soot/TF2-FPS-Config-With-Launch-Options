@@ -36,7 +36,9 @@ Launch options explained for nerdy folk like me:
 -primarysound //windows and 2 speakers/headphones only, makes tf2 always use a direct hardware sound buffer format to reduce stuttering
 -snoforceformat //windows only, no force setting hardware sound buffer format, fixes minor issues with -primarysound
 -freq 60//sets your monitor's refresh rate in tf2 to 60hz
--dxlevel 81 //makes tf2 use a directx level of 8.1, which is more compatilble with slower pcs, to increase fps(at the cost of visual quality); it's a more stable version of dxlevel 80(which gives slightly more fps than dxlevel 81 for older hardware but has lighting and texture issues fixed by dxlevel 81.)
+-dxlevel 81 //makes tf2 use a directx level of 8.1, which is more compatilble with slower pcs, to increase fps(at the cost of visual quality);
+            //it's a more stable version of dxlevel 80(which gives slightly more fps than dxlevel 81 for older hardware but has lighting and texture issues 
+            //fixed by dxlevel 81.)
 
 Extra/Experimental Launch Options + Explaination:
 -nouserclip //forces tf2 to use software clipping instead of hardware user clip planes, fps increase or decreases depending on individual hardware
@@ -46,7 +48,7 @@ Extra/Experimental Launch Options + Explaination:
 -gl_texclientstorage //makes tf2 use driver host copies for textures; reduces memory usage, but may cause texture display issues
 -gl_amd_pinned_memory //linux only, uses amd pinned memory for efficient device memory handling; performance may worsen or improve depending on the individual hardware
 
-Supported TF2 DirectX Levels:
+//Supported TF2 DirectX Levels:
 dxlevels under dxlevel 80 are not supported by tf2 any longer
 dxlevel 98 is only for xbox
 dxlevel 81 recommended for older hardware
