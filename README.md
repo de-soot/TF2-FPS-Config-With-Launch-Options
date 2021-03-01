@@ -11,7 +11,7 @@ To install the config:
 
 Launch options for even more fps (remove the brackets):
 
--high -novid -nojoy -full -nosteamcontroller -softparticlesdefaultoff -reuse -nohltv -nostartupsound -r_emulate_gl -particles 1 -precachefontchars -primarysound (windows only) -snoforceformat (also windows only) -freq 60 (change the value '60' to your monitor's refresh rate in hz rounded to the nearest whole number) -dxlevel 81(for more dxlevels, see details below. use this launch option only once then remove it to keep your in-game settings)
+-novid -nojoy -full -nosteamcontroller -softparticlesdefaultoff -reuse -nohltv -nostartupsound -r_emulate_gl -particles 1 -precachefontchars -primarysound (windows only) -snoforceformat (also windows only) -freq 60 (change the value '60' to your monitor's refresh rate in hz rounded to the nearest whole number) -dxlevel 81(for more dxlevels, see details below. use this launch option only once then remove it to keep your in-game settings)
 
 
 How to use the launch options:
@@ -24,8 +24,6 @@ How to use the launch options:
 
 
 Launch options explained for nerdy folk like me:
-
--high //sets the priority of the program to high so your pc puts more resources onto tf2 instead of other programs
 
 -novid //disables the intro from playing when you start up the game to waste less time and subtly reduce load on your pc
 
