@@ -1,4 +1,5 @@
-# TF2-FPS-Config
+# TF2 FPS Config (+Launch Options)
+
 Config for Team Fortress 2 that increases frames and decreases lag at the cost of graphical quality.
 
 This config is made to help reduce lag and improve performance on TF2 for people like me with low-end pcs, hope this helps you too!
