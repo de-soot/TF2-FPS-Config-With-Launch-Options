@@ -26,54 +26,54 @@ How to use the launch options:
 
 Launch options explained for nerdy folk like me:
 
--novid //disables the intro from playing when you start up the game to waste less time and subtly reduce load on your pc
+-novid : disables the intro from playing when you start up the game to waste less time and subtly reduce load on your pc
 
--nojoy //disables joysticks to hasten startup time and reduce memory usage
+-nojoy : disables joysticks to hasten startup time and reduce memory usage
 
--full //puts the game in fullscreen which reduces input lag and memory usage
+-noff : disables controller rumble; faster startup time and less memory usage
 
--nosteamcontroller //disables the steam controller for faster startup and less memory usage
+-full : puts the game in fullscreen which reduces input lag and memory usage
 
--softparticlesdefaultoff //disables scene depth blending for particles and sprites, gives you more fps
+-nosteamcontroller : disables the steam controller for faster startup and less memory usage
 
--reuse //allows your game to reuse things when it's busy so it doesn't have to re-render
+-softparticlesdefaultoff : disables scene depth blending for particles and sprites, gives you more fps
 
--nohltv //disables hltv for less resource usage
+-reuse : allows your game to reuse things when it's busy so it doesn't have to re-render
 
--no-browser //disables html motd browser; stops you from getting kicked for using 'cl_disablehtmlmotd 1', this will not disable the steam overlay browser
+-nohltv : disables hltv for less resource usage
 
--nostartupsound //disables the sound on startup so your pc doesn't have to play the audio files, slightly reduces memory usage and speeds up startup
+-no-browser : disables html motd browser; stops you from getting kicked for using 'cl_disablehtmlmotd 1', this will not disable the steam overlay browser
 
--r_emulate_gl //makes tf2 support opengl, still mainly runs using directx
+-nostartupsound : disables the sound on startup so your pc doesn't have to play the audio files, slightly reduces memory usage and speeds up startup
 
--particles 1 //limits beam count to the minimum of 512
+-r_emulate_gl : makes tf2 support opengl, still mainly runs using directx
 
--precachefontchars //pre-caches font characters
+-particles 1 : limits beam count to the minimum of 512
 
--primarysound //windows and 2 speakers/headphones only, makes tf2 always use a direct hardware sound buffer format to reduce stuttering
+-precachefontchars : pre-caches font characters
 
--snoforceformat //windows only, no force setting hardware sound buffer format, fixes minor issues with -primarysound
+-primarysound : windows and 2 speakers/headphones only, makes tf2 always use a direct hardware sound buffer format to reduce stuttering
 
--freq 60 //sets your monitor's refresh rate in tf2 to 60hz
+-snoforceformat : windows only, no force setting hardware sound buffer format, fixes minor issues with -primarysound
 
--dxlevel 81 //makes tf2 use a directx level of 8.1, which is more compatilble with slower pcs, to increase fps(at the cost of visual quality);
-            //it's a more stable version of dxlevel 80(which gives slightly more fps than dxlevel 81 for older hardware but has lighting and texture issues 
-            //fixed by dxlevel 81.)
+-freq 60 : sets your monitor's refresh rate in tf2 to 60hz
+
+-dxlevel 81 : makes tf2 use a directx level of 8.1, which is more compatilble with slower pcs, to increase fps(at the cost of visual quality); it's a more stable version of dxlevel 80(which gives slightly more fps than dxlevel 81 for older hardware but has lighting and texture issues fixed by dxlevel 81.)
 
 
 Extra/Experimental Launch Options + Explaination:
 
--nouserclip //forces tf2 to use software clipping instead of hardware user clip planes, fps increase or decreases depending on individual hardware
+-nouserclip : forces tf2 to use software clipping instead of hardware user clip planes, fps increase or decreases depending on individual hardware
 
--nosounds //disables sounds from the game, fps improvement only on literal potatos
+-nosounds : disables sounds from the game, fps improvement only on literal potatos
 
--small //makes the game allow smaller resolutions than 640x480
+-small : makes the game allow smaller resolutions than 640x480
 
--gl_enablesamplerobjects //linux and macOS only, enhances texture preloading using sampler objects
+-gl_enablesamplerobjects : linux and macOS only, enhances texture preloading using sampler objects
 
--gl_texclientstorage //makes tf2 use driver host copies for textures; reduces memory usage, but may cause texture display issues
+-gl_texclientstorage : makes tf2 use driver host copies for textures; reduces memory usage, but may cause texture display issues
 
--gl_amd_pinned_memory //linux only, uses amd pinned memory for efficient device memory handling; performance may worsen or improve depending on the individual hardware
+-gl_amd_pinned_memory : linux only, uses amd pinned memory for efficient device memory handling; performance may worsen or improve depending on the individual hardware
 
 Supported TF2 DirectX Levels:
 dxlevels under dxlevel 80 are not supported by tf2 any longer
