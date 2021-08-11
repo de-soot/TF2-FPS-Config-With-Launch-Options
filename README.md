@@ -12,7 +12,7 @@ To install the config:
 
 Launch options for even more fps (remove the brackets):
 
--novid -nojoy -full -nosteamcontroller -softparticlesdefaultoff -reuse -nohltv -nostartupsound -r_emulate_gl -particles 1 -precachefontchars -primarysound (windows only) -snoforceformat (also windows only) -freq 60 (change the value '60' to your monitor's refresh rate in hz rounded to the nearest whole number) -dxlevel 81(for more dxlevels, see details below. use this launch option only once then remove it to keep your in-game settings)
+-novid -noff -nojoy -fullscreen -nosteamcontroller -softparticlesdefaultoff -reuse -nohltv -no-browser -nostartupsound -r_emulate_gl -particles 1 -precachefontchars -primarysound (windows only) -snoforceformat (also windows only) -dxlevel 81 (for more directX levels, see details below. use this launch option only once then remove it to keep your in-game settings)
 
 
 How to use the launch options:
@@ -32,7 +32,7 @@ Launch options explained for nerdy folk like me:
 
 -noff : disables controller rumble; faster startup time and less memory usage
 
--full : puts the game in fullscreen which reduces input lag and memory usage
+-fullscreen : puts the game in fullscreen which reduces input lag and memory usage
 
 -nosteamcontroller : disables the steam controller for faster startup and less memory usage
 
@@ -55,8 +55,6 @@ Launch options explained for nerdy folk like me:
 -primarysound : windows and 2 speakers/headphones only, makes tf2 always use a direct hardware sound buffer format to reduce stuttering
 
 -snoforceformat : windows only, no force setting hardware sound buffer format, fixes minor issues with -primarysound
-
--freq 60 : sets your monitor's refresh rate in tf2 to 60hz
 
 -dxlevel 81 : makes tf2 use a directx level of 8.1, which is more compatilble with slower pcs, to increase fps(at the cost of visual quality); it's a more stable version of dxlevel 80(which gives slightly more fps than dxlevel 81 for older hardware but has lighting and texture issues fixed by dxlevel 81.)
 
@@ -97,6 +95,3 @@ To disable the Steam Overlay:
 3. Left-click Properties
 4. Uncheck the box that says: "Enable Steam Overlay while in-game"
 5. Launch the game
-
-To disable Steamwebhelper:
-You can find how to on the internet since i'm too lazy to write it down for u (it's 11:30pm at the time i'm writing this.)
