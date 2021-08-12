@@ -3,12 +3,12 @@
 This is a place for that was made to increase performance and decrease lag for Team Fortress 2, so unlike many other configs; every single command and launch option works!
 
 # To install the config:
-  1) Download the autoexec.cfg on your pc
-  2) Place the config into your folder located at Team Fortress 2/tf/cfg/
-  3) Start up TF2
+  1) Copy all of the commands from the autoexec.cfg file
+  2) Paste them in your own autoexec.cfg file
+  2) Start up TF2
 
 
-# Launch options for even better performance:
+# Launch options to get more out of the config:
 
 -novid -noff -nojoy -nosteamcontroller -softparticlesdefaultoff -reuse -nohltv -no-browser -nostartupsound -precachefontchars -dxlevel 100 -noquicktime
 
