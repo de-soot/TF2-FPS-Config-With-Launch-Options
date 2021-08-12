@@ -1,8 +1,6 @@
 # TF2 FPS Config + Launch Options
 
-Config for Team Fortress 2 that increases frames and decreases lag at the cost of graphical quality.
-
-This config is made to help reduce lag and improve performance on TF2 for people like me with low-end pcs, hope this helps you too!
+This is a place for that was made to increase performance and decrease lag for Team Fortress 2, so unlike many other configs; every single command and launch option works!
 
 # To install the config:
   1) Download the autoexec.cfg on your pc
@@ -46,18 +44,18 @@ This config is made to help reduce lag and improve performance on TF2 for people
 
   -freq x : sets your "in-game monitor"'s refresh rate to value x
 
-  -dxlevel 100 : makes tf2 find the recommended directX level to use and uses it (this launch option resets your settings every time you launch with it but it saves your set directX level, so you only need to launch it once.)
+  -dxlevel 100 : makes TF2 find the recommended directX level to use and uses it (this launch option resets your settings every time you launch with it but it saves your set directX level, so you only need to launch it once.)
 
 
 # Extra/Experimental Launch Options + Explaination:
 
-  -r_emulate_gl : makes tf2 support opengl; fps increase/decrease depending on hardware
+  -r_emulate_gl : makes TF2 support opengl; fps increase/decrease depending on hardware
 
   -primarysound : windows and 2 speakers/ 1 headphone only, makes tf2 always use a direct hardware sound buffer format to reduce stuttering
 
   -snoforceformat : windows only, no force setting hardware sound buffer format, fixes minor issues with -primarysound
 
-  -noquicktime : makes tf2 not initialise quicktime when you start the game; don't use this if you use the replay features
+  -noquicktime : makes TF2 not initialise quicktime when you start the game; don't use this if you use the replay features
 
   -nosound : disables sounds from the game; only use if game is unplayable without it
 
