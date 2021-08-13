@@ -17,9 +17,8 @@ This is a place for that was made to increase performance and decrease lag for T
   1) Go to your Steam Library
   2) Right-click on Team Fortress 2
   3) Left-click Properties
-  4) Copy and paste the launch codes above
-  5) Leave the Properties
-  6) Boot up the game
+  4) Copy and paste the launch options above into the Launch Options bar
+  5) Boot up the game
 
 
 # Launch options explained:
