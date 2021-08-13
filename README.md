@@ -10,7 +10,7 @@ This is a place for that was made to increase performance and decrease lag for T
 
 # Launch options to get more out of the config:
 
--novid -noff -nojoy -nosteamcontroller -softparticlesdefaultoff -reuse -nohltv -no-browser -nostartupsound -precachefontchars -dxlevel 100 -noquicktime
+-novid -noff -nojoy -nosteamcontroller -softparticlesdefaultoff -reuse -nohltv -no-browser -nostartupsound -precachefontchars -dxlevel 81 -noquicktime
 
 
 # How to use the launch options:
