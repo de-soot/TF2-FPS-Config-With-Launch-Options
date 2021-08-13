@@ -1,7 +1,5 @@
 # TF2 FPS Config + Launch Options
 
-This is a place for that was made to increase performance and decrease lag for Team Fortress 2, so unlike many other configs; every single command and launch option works!
-
 # To install the config:
   1) Copy all of the commands from the autoexec.cfg file
   2) Paste them in your own autoexec.cfg file
