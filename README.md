@@ -41,7 +41,7 @@ This is a place for that was made to increase performance and decrease lag for T
 
   -precachefontchars : pre-caches font characters
 
-  -freq x : sets your "in-game monitor"'s refresh rate to value x
+  -freq x : sets your "in-game monitor" 's refresh rate to value x
 
   -dxlevel 81 : makes TF2 use directX level 8.1 (this launch option resets your settings every time you launch with it but it saves your set directX level, so you only need to launch it once.)
 
