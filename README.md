@@ -1,6 +1,6 @@
 # TF2 FPS Config + Launch Options
 
-Made for people who want to play Team Fortress 2 with potatoes.
+Made for Team Fortress 2 players who want to run the game on potatoes.
 
 ## Usage
 1) Download and place `autoexec.cfg` into `...\SteamApps\common\Team Fortress 2\tf2\cfg`
