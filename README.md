@@ -14,4 +14,4 @@ Made for Team Fortress 2 players who want to run the game with potatoes as their
     - Paste it into the text box under `Launch Options`
     - Close `Properties` window
   
-4) Launch `Team Fortress 2`
+4) Launch `Team Fortress 2` from `Steam` or Run `tf2.exe`
