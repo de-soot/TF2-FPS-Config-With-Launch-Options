@@ -10,8 +10,8 @@ Made for Team Fortress 2 players who want to run the game with potatoes as their
     - Right click `Team Fortress 2`
     - Select `Properties`
     - On the `General` tab you'll find `Launch Options`
-    - Copy `-novid -nojoy -nosteamcontroller -softparticlesdefaultoff -reuse -nohltv -no-browser -nostartupsound -precachefontchars -dxlevel 81 -noquicktime` to clipboard
-    - Paste into the text box under `Launch Options`
+    - Copy this to Clipboard: `-novid -nojoy -nosteamcontroller -softparticlesdefaultoff -reuse -nohltv -no-browser -nostartupsound -precachefontchars -dxlevel 81 -noquicktime`
+    - Paste it into the text box under `Launch Options`
     - Close `Properties` window
   
 4) Launch `Team Fortress 2`
